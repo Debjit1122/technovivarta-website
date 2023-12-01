@@ -159,7 +159,7 @@
 }
 
 .background {
-  background: url("/bg-2.jpg");
+  background: url("/bg.jpg");
   background-position: center;
   background-size: cover;
   position: fixed;

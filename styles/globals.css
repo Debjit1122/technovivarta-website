@@ -159,17 +159,6 @@
 }
 
 .background {
-  background: url("/bg.jpg");
-  background-position: center;
-  background-size: cover;
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  z-index: -1;
-  filter: blur(2px);
-}
-
-.background-2 {
   background: url("/bg-2.jpg");
   background-position: center;
   background-size: cover;
@@ -177,5 +166,4 @@
   width: 100%;
   height: 100vh;
   z-index: -1;
-  filter: blur(2px);
 }

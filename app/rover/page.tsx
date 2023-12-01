@@ -109,7 +109,7 @@ const Rover = () => {
                             <CardHeader className="p-0">
                                 <Image src={game.image} alt={game.name} width={400} height={400} className="h-60" />
                             </CardHeader>
-                            <CardContent className="h-60 py-6">
+                            <CardContent className="h-80 py-6">
                                 <CardDescription className="mb-4 flex gap-4">
                                     <div className="flex">
                                         <FaRegCalendar />&nbsp;{game.date}

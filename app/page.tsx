@@ -123,7 +123,7 @@ export default function IndexPage() {
               >
                 Thoughts Beyond Evolution
               </h1>
-                <div className="animate__animated animate__fadeInUp animate__delay-1s mt-10 flex justify-center">
+                <div className="animate__animated animate__fadeInUp animate__delay-1s mt-14 flex justify-center">
                   <Link href="/rover">
                     <button className="cta-btn">JOIN US AT ROVER 3.0</button>
                   </Link>

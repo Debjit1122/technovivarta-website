@@ -44,7 +44,7 @@ function Team() {
 
   return (
     <div>
-      <div className="background-2"></div>
+      <div className="background"></div>
      <section className="teams-section">
       <div className="container mx-auto pt-7">
         <div className="animate__animated animate__fadeInUp mb-9 max-w-[800px]">

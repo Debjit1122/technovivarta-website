@@ -9,7 +9,7 @@ const Contact = () => {
 
     return (
         <div>
-            <div className="background-2"></div>
+            <div className="background"></div>
             <div className="container mx-auto mb-9">
                 <h2 className="heading-main mb-9 pt-9 text-center text-3xl font-semibold">Contact Us</h2>
                 <Card className='p-5'>

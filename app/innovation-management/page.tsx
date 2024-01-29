@@ -85,35 +85,38 @@ const InterestForm = () => {
                                 required
                             />
                         </div>
-                        <label className="mb-4 block text-sm font-bold" htmlFor="interests">
-                               Events interested in
-                        </label>
-                        <div className="mb-4 flex items-center space-x-2">
-                            <Input type="checkbox" id="pitchtodeck" name="pitchtodeck" />
-                            <label
-                                htmlFor="pitchtodeck"
-                                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                            >
-                                Pitch to Deck
+                        <div className="mb-4">
+                            <label className="mb-4 block text-sm font-bold" htmlFor="pitchtodeck">
+                                Interested in &quot;Pitch to Deck&quot; (Yes/No)?
                             </label>
+                            <Input
+                                id="pitchtodeck"
+                                name="pitchtodeck"
+                                className="w-full rounded-md border p-2"
+                                required
+                            />
                         </div>
-                        <div className="mb-4 flex items-center space-x-2">
-                            <Input type="checkbox" id="socialinnovationchallenge" name="socialinnovationchallenge" />
-                            <label
-                                htmlFor="socialinnovationchallenge"
-                                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                            >
-                                Social Innovation Challenge
+                        <div className="mb-4">
+                            <label className="mb-4 block text-sm font-bold" htmlFor="projectshowcase">
+                                Interested in &quot;Project Showcase&quot; (Yes/No)?
                             </label>
+                            <Input
+                                id="projectshowcase"
+                                name="projectshowcase"
+                                className="w-full rounded-md border p-2"
+                                required
+                            />
                         </div>
-                        <div className="mb-4 flex items-center space-x-2">
-                            <Input id="projectshowcase" type="checkbox" name="projectshowcase" />
-                            <label
-                                htmlFor="interests"
-                                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                            >
-                                Project Showcase
+                        <div className="mb-4">
+                            <label className="mb-4 block text-sm font-bold" htmlFor="socialinnovationchallenge">
+                                Interested in &quot;Social Innovation Challenge&quot; (Yes/No)?
                             </label>
+                            <Input
+                                id="socialinnovationchallenge"
+                                name="socialinnovationchallenge"
+                                className="w-full rounded-md border p-2"
+                                required
+                            />
                         </div>
                         <Button
                             className={`${buttonVariants()} text-md mt-7`}

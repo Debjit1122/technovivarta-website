@@ -26,7 +26,7 @@ const games = [
         image: "/valorant.png",
         description: "The tournament will include 16 teams, start with online preliminaries knockout rounds and end with LAN finals. Featuring 7 favourite maps in a 5v5 setting.",
         registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfG6EYvvGmLedwZa7QPt6N8_rXO9S857Q1ZBTjz_qrTn0X44w/viewform",
-        rulebookLink: "https://drive.google.com/file/d/1g1suO_jeU6lqnxzg8QlgaPEPs37aSSi0/view",
+        rulebookLink: "https://drive.google.com/file/d/1tqRsWlxT2kXS8tjnMYCeUYEj3O_KIdIX/view",
         date: "December 9, 2023",
         place: "Techno India University",
     },
@@ -35,7 +35,7 @@ const games = [
         image: "/fc24.jpg",
         description: "One-day tournament with 16 players, 8 groups of 3, each player plays 2 matches lasting 10 mins, completing each group in 30 mins.",
         registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfsaFsLA0TAD7yAl7OdMzw9FGknfvZuejLMk9qjt3RSi-xE9w/viewform",
-        rulebookLink: "https://drive.google.com/file/d/1ED2GMfgr7-bcfy_VUmsEDWvykcHdMCsG/view",
+        rulebookLink: "https://drive.google.com/file/d/1VNPslxuceSzoq7RtwLt3cNUlQhFJPsYP/view",
         date: "December 9, 2023",
         place: "Techno India University",
     },
@@ -44,7 +44,7 @@ const games = [
         image: "/e-football.jpg",
         description: "Consists of 32 players will be divided into 8 groups played in single elimination format and in standard mode",
         registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSer_WnUOI973mm3Rw_8c84eBjGoU1XoxaQICPtDq2BSOoMHTA/viewform",
-        rulebookLink: "https://drive.google.com/file/d/1ckWDoDUMBZu2Wr6IalJ3zWgAW5605F8Q/view",
+        rulebookLink: "https://drive.google.com/file/d/1sLU1qkitYSnbwHrI1xoJ-S3C1BJF9-to/view",
         date: "December 9, 2023",
         place: "Techno India University",
     },
@@ -53,7 +53,7 @@ const games = [
         image: "/chess.png",
         description: "Chess, the timeless game of kings. Join us for a fun mix of both over-the-board and online matches on chess.com. Ready to outwit your opponent in the battle of the brains in ROVER 3.0?",
         registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLScjssJfWuugWRaeadRZndl4Wy1vxTmrA0BApjzytTCcEuVMsw/viewform",
-        rulebookLink: "https://drive.google.com/file/d/1X8KqCYKaAMUocZMl5mzby_vQQ-_VjMun/view",
+        rulebookLink: "https://drive.google.com/file/d/1PcE_w8jdmus_ztXviStO8TeqmllamR_M/view",
         date: "December 9, 2023",
         place: "Techno India University",
     },
@@ -62,6 +62,7 @@ const games = [
         image: "/cosplay.jpg",
         description: "Cosplay extravaganza featuring creative costumes, character portrayals, and a vibrant community gathering for a day of imaginative self-expression and fun.",
         registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeGGfirnGIFld84RT2RrdL0DjrlWVS1m2BrxrHELuy3w79TwA/viewform?pli=1",
+        rulebookLink: "https://drive.google.com/file/d/1DvDsq1lVStHDdcvA4N-YJw8YX1sK37rQ/view",
         date: "December 9, 2023",
         place: "Techno India University",
     },
@@ -125,7 +126,7 @@ const Rover = () => {
                                 {
                                     game.registrationLink && (
                                         <Button className={`${buttonVariants()} rounded-none`}>
-                                            <a href={game.registrationLink}>Register</a>
+                                            <a href={game.registrationLink} rel="noreferrer" target="_blank">Register</a>
                                         </Button>
                                     )}
                                 {

@@ -89,7 +89,7 @@ const InterestForm = () => {
                                Events interested in
                         </label>
                         <div className="mb-4 flex items-center space-x-2">
-                            <Checkbox id="pitchtodeck" />
+                            <Input type="checkbox" id="pitchtodeck" name="pitchtodeck" />
                             <label
                                 htmlFor="pitchtodeck"
                                 className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -98,7 +98,7 @@ const InterestForm = () => {
                             </label>
                         </div>
                         <div className="mb-4 flex items-center space-x-2">
-                            <Checkbox id="socialinnovationchallenge" />
+                            <Input type="checkbox" id="socialinnovationchallenge" name="socialinnovationchallenge" />
                             <label
                                 htmlFor="socialinnovationchallenge"
                                 className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -107,7 +107,7 @@ const InterestForm = () => {
                             </label>
                         </div>
                         <div className="mb-4 flex items-center space-x-2">
-                            <Checkbox id="projectshowcase" />
+                            <Input id="projectshowcase" type="checkbox" name="projectshowcase" />
                             <label
                                 htmlFor="interests"
                                 className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"

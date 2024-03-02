@@ -7,7 +7,7 @@ import { Button, buttonVariants } from "@/components/ui/button";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { BiTime } from "react-icons/bi";
 
-function InnovationManagement() {
+function Computing() {
 
     return (
         <div>
@@ -16,10 +16,11 @@ function InnovationManagement() {
                 <div className="container mx-auto pt-7">
                     <div className="animate__animated animate__fadeInUp mb-9 max-w-[800px]">
                         <h1 className="mb-6 text-3xl font-extrabold leading-tight">
-                            Innovation Management
+                            Events
                         </h1>
                         <p className="text-lg md:text-xl lg:text-xl">
-                            At the heart of our technological extravaganza at Techno Vivarta 2024 lie the Innovation Management events, providing a platform for bright minds to converge, collaborate, and catalyze groundbreaking ideas. In an era dominated by rapid advancements, these events are designed to explore the frontiers of innovation, pushing the boundaries of what is possible.
+                            🎉 Calling all Coders, Android Developers and Web Developers! 🎉
+                            Are you ready to showcase your skills and compete against the best in the industry? Participate in our upcoming contests at Techno VIVARTA 2024 and stand a chance to win lucrative cash prizes! 🤩
                         </p>
                     </div>
                     <div>
@@ -35,16 +36,16 @@ function InnovationManagement() {
                                     width={400}
                                     height={200}
                                 />
-                                <h3 className="text-lg font-semibold">Pitch To Deck</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <h3 className="text-lg font-semibold">Codex</h3>
+                                <p className="mt-1 text-sm text-gray-500">8th March, 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
-                                    <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
+                                    <p>Codex: Calling all coders! 👨‍💻 If you are looking for a challenge, join Codex and put your skills to the test. Compete against other coders and show the world what you are made of!</p><br />
+                                    <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} /> Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
                                 </div>
                                 <div className="mt-6">
-                                    <Link href="/innovation-management/pitch-to-deck" className={buttonVariants()}>RSVP Now</Link>
+                                    <Link href="/computing/codex" className={buttonVariants()}>RSVP Now</Link>
                                 </div>
                             </Card>
                             <Card className="rounded-lg p-4">
@@ -55,16 +56,17 @@ function InnovationManagement() {
                                     width={400}
                                     height={200}
                                 />
-                                <h3 className="text-lg font-semibold">Social Innovation Challenge</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <h3 className="text-lg font-semibold">Androjam</h3>
+                                <p className="mt-1 text-sm text-gray-500">9th March, 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>Are you a master of Android development and looking for a challenge to showcase your skills? Then, this contest is for you! Show us your skills and win exciting prizes. 📱
+                                    </p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
                                 </div>
                                 <div className="mt-6">
-                                    <Link href="/innovation-management/social-innovation-challenge" className={buttonVariants()}>RSVP Now</Link>
+                                    <Link href="/computing/androjam" className={buttonVariants()}>RSVP Now</Link>
                                 </div>
                             </Card>
                             <Card className="rounded-lg p-4">
@@ -75,16 +77,17 @@ function InnovationManagement() {
                                     width={400}
                                     height={200}
                                 />
-                                <h3 className="text-lg font-semibold">Project Showcasing</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <h3 className="text-lg font-semibold">WebYard</h3>
+                                <p className="mt-1 text-sm text-gray-500">8th March, 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>Are you passionate about web development and looking for a challenge? This is your chance to shine! Participate in Webyard and showcase your skills to win big! 🌐
+                                    </p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
                                 </div>
                                 <div className="mt-6">
-                                    <Link href="/innovation-management/project-showcasing" className={buttonVariants()}>RSVP Now</Link>
+                                    <Link href="/computing/webyard" className={buttonVariants()}>RSVP Now</Link>
                                 </div>
                             </Card>
                         </div>
@@ -96,4 +99,4 @@ function InnovationManagement() {
     );
 }
 
-export default InnovationManagement;
+export default Computing;

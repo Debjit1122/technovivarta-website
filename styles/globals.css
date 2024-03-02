@@ -159,8 +159,9 @@
 }
 
 .background {
-  background: url("/bg.jpg");
+  background: url("/bg.svg");
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   position: fixed;
   width: 100%;

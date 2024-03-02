@@ -3,7 +3,7 @@ import FormfacadeEmbed from "@formfacade/embed-react";
 
 const Webyard = () => {
     return (
-        <div className="pt-20 pb-20">
+        <div className="md:p-20 p-8">
             <FormfacadeEmbed
 
                 formFacadeURL="https://formfacade.com/include/102262356723385342996/form/1FAIpQLScoIM8TMeT6njgSv7h-FRkTAc4foiETid5i_HG24wFdZ3jW2Q/classic.js/?div=ff-compose"

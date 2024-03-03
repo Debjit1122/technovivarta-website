@@ -29,19 +29,19 @@ function Designing() {
                         <div className="mt-9x  grid grid-cols-1 gap-4 md:grid-cols-3">
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/mascot.jpg"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
                                     height={200}
                                 />
-                                <h3 className="text-lg font-semibold">Design Derby</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <h3 className="text-lg font-semibold">Mascot Contest: Design Derby</h3>
+                                <p className="mt-1 text-sm text-gray-500">9th March 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>A thrilling contest inviting creative minds to craft captivating mascots! Unleash your imagination and bring to life the embodiment of spirit, energy, and identity. Join us in shaping the face of excitement and inspiration!</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} /> Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 11am Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/designing/design-derby" className={buttonVariants()}>RSVP Now</Link>

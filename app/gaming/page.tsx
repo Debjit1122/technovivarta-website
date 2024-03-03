@@ -29,19 +29,20 @@ function Gaming() {
                         <div className="mt-9x  grid grid-cols-1 gap-4 md:grid-cols-3">
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/bgmi.jpg"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
                                     height={200}
                                 />
                                 <h3 className="text-lg font-semibold">BGMI</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <p className="mt-1 text-sm text-gray-500">9th & 10th March 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>Survive the chaos, Eliminate opponents, and be the last one standing to claim the coveted title of the ultimate BGMI champion.
+Register now for BGMI and join the Battlefield for the Epic Glory!</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 9th March: 12pm Onwards <br/> 10th March: 11am Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/gaming/bgmi" className={buttonVariants()}>RSVP Now</Link>
@@ -49,19 +50,19 @@ function Gaming() {
                             </Card>
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/fc24.jpg"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
                                     height={200}
                                 />
                                 <h3 className="text-lg font-semibold">FC24</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <p className="mt-1 text-sm text-gray-500">9th & 10th March 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>A football saga, a symphony of thrills with each kick, a labyrinth of twists and turns, weaving through defenses with breathtaking skill.</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 9th March: 12pm Onwards <br/> 10th March: 11am Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/gaming/fc24" className={buttonVariants()}>RSVP Now</Link>
@@ -69,19 +70,19 @@ function Gaming() {
                             </Card>
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/valo.jpeg"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
                                     height={200}
                                 />
                                 <h3 className="text-lg font-semibold">Valorant</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <p className="mt-1 text-sm text-gray-500">9th & 10th March 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>Get ready for an adrenaline-fueled showdown Just One QR Scan away from the VALORANT tournament! Make Elite teams, intense strategies, and jaw-dropping plays await. Brace yourself for an epic battle that will redefine esports greatness.</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 9th March: 12pm Onwards <br/> 10th March: 11am Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/gaming/valorant" className={buttonVariants()}>RSVP Now</Link>
@@ -89,19 +90,19 @@ function Gaming() {
                             </Card>
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/e-football.jpg"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
                                     height={200}
                                 />
                                 <h3 className="text-lg font-semibold">E-Football</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <p className="mt-1 text-sm text-gray-500">8th March 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>Experience the thrill of virtual soccer with e-Football, where the excitement of the beautiful game comes alive on mobiles, featuring immersive graphics and realistic gameplay</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 12pm Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/gaming/e-football" className={buttonVariants()}>RSVP Now</Link>
@@ -109,19 +110,19 @@ function Gaming() {
                             </Card>
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/chess.png"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
                                     height={200}
                                 />
                                 <h3 className="text-lg font-semibold">Chess</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <p className="mt-1 text-sm text-gray-500">8th March 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>"Unleash your strategic genius on the digital battlefield of chess. Register now to sharpen your skills and outwit opponents in the ultimate game of intellect and precision."</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 12pm Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/gaming/chess" className={buttonVariants()}>RSVP Now</Link>

@@ -36,12 +36,12 @@ function Robotics() {
                                     height={200}
                                 />
                                 <h3 className="text-lg font-semibold">ROBO WAR (15Kg)</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <p className="mt-1 text-sm text-gray-500">9th March 2024(Prelims)</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
                                     <p>Clash of titans! Robowar 2024 ignites. Program your 15kg bot for battle. Strategy, strength, and dominance decide the victor. Witness the robotic revolution!</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 10 am Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/robotics/robotics-events" className={buttonVariants()}>RSVP Now</Link>
@@ -56,12 +56,12 @@ function Robotics() {
                                     height={200}
                                 />
                                 <h3 className="text-lg font-semibold">LINE FOLLOWER</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <p className="mt-1 text-sm text-gray-500">8th March 2024(Prelims)</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
                                     <p>Witness robotic precision at Line Follower! Sensors and lightning-fast reflexes guide bots on their path. Months of work culminate in a display of technological prowess. Be part of the future!</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 10 am Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/robotics/robotics-events" className={buttonVariants()}>RSVP Now</Link>
@@ -76,12 +76,12 @@ function Robotics() {
                                     height={200}
                                 />
                                 <h3 className="text-lg font-semibold">DEATH RACE</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <p className="mt-1 text-sm text-gray-500">8th & 9th March 2024(Prelims)</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
                                     <p>Metal gladiators hurtle in Deathrace! Bots weave through a treacherous gauntlet, pushing speed and strategy. Witness real-time decisions and daring maneuvers. Who reigns supreme?</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 10 am Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/robotics/robotics-events" className={buttonVariants()}>RSVP Now</Link>
@@ -89,19 +89,19 @@ function Robotics() {
                             </Card>
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/dogewar.jpeg"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
                                     height={200}
                                 />
-                                <h3 className="text-lg font-semibold">DOGE WAR</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <h3 className="text-lg font-semibold">DOGE WAR (8KG) </h3>
+                                <p className="mt-1 text-sm text-gray-500">9th March 2024 (Prelims)</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>Metal gladiators clash in Robowar's Colosseum! Strategize, build, battle. Witness robot champions forged in the future of combat. Be there!</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 10 am Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/robotics/robotics-events" className={buttonVariants()}>RSVP Now</Link>
@@ -109,24 +109,26 @@ function Robotics() {
                             </Card>
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/robosoccer.jpeg"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
                                     height={200}
                                 />
                                 <h3 className="text-lg font-semibold">ROBO SOCCER</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <p className="mt-1 text-sm text-gray-500">8th & 9th March 2024(Prelims)</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>Where Robots rule the pitch ! Witness dazzling displays of speed, precision, and teamwork as bots battle for goals. Experience the future of sports!</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 10 am Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/robotics/robotics-events" className={buttonVariants()}>RSVP Now</Link>
                                 </div>
                             </Card>
+
+  
                         </div>
                     </div>
                 </div>

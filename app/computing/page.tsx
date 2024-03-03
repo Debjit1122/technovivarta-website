@@ -30,7 +30,7 @@ function Computing() {
                         <div className="mt-9x  grid grid-cols-1 gap-4 md:grid-cols-3">
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/code.avif"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
@@ -42,7 +42,7 @@ function Computing() {
                                     {/* Additional event information */}
                                     <p>Codex: Calling all coders! 👨‍💻 If you are looking for a challenge, join Codex and put your skills to the test. Compete against other coders and show the world what you are made of!</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} /> Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 10am - 2pm</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/computing/codex" className={buttonVariants()}>RSVP Now</Link>
@@ -50,7 +50,7 @@ function Computing() {
                             </Card>
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/app.jpg"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
@@ -63,7 +63,7 @@ function Computing() {
                                     <p>Are you a master of Android development and looking for a challenge to showcase your skills? Then, this contest is for you! Show us your skills and win exciting prizes. 📱
                                     </p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 8am - 8pm</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/computing/androjam" className={buttonVariants()}>RSVP Now</Link>
@@ -71,7 +71,7 @@ function Computing() {
                             </Card>
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/web.avif"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
@@ -84,7 +84,7 @@ function Computing() {
                                     <p>Are you passionate about web development and looking for a challenge? This is your chance to shine! Participate in Webyard and showcase your skills to win big! 🌐
                                     </p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 3pm - 7pm</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/computing/webyard" className={buttonVariants()}>RSVP Now</Link>

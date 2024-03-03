@@ -29,19 +29,19 @@ function Mechmania() {
                         <div className="mt-9x  grid grid-cols-1 gap-4 md:grid-cols-3">
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/blastoff.jpeg"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
                                     height={200}
                                 />
                                 <h3 className="text-lg font-semibold">Blast Off</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <p className="mt-1 text-sm text-gray-500">9th March 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>The Ultimate Water Bottle Rocket Event." Let your creativity soar as we explore DIY rocket science. With a fusion of science, engineering, and fun, design, build, and launch your own water bottle rockets for an unforgettable experience.</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 2pm - 4pm</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/mechmania/blast-off" className={buttonVariants()}>RSVP Now</Link>
@@ -49,19 +49,19 @@ function Mechmania() {
                             </Card>
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/poseidon.jpeg"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
                                     height={200}
                                 />
                                 <h3 className="text-lg font-semibold">Poseidon</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <p className="mt-1 text-sm text-gray-500">10th March 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>Dive into the excitement of POSEIDON , the Aqua Robot Soccer War! Experience the fusion of soccer and robotics in an electrifying underwater arena. Get ready to be thrilled and amazed by the innovative competition unlike any other.</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 12pm - 6pm</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/mechmania/poseidon" className={buttonVariants()}>RSVP Now</Link>
@@ -69,19 +69,19 @@ function Mechmania() {
                             </Card>
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/powertruss.jpeg"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
                                     height={200}
                                 />
                                 <h3 className="text-lg font-semibold">Power Truss</h3>
-                                <p className="mt-1 text-sm text-gray-500">Event Date</p>
+                                <p className="mt-1 text-sm text-gray-500">8th & 9th March 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>Building Bridges to Success! Prepare to unleash your creativity and engineering skills as you construct and test your own bridge, designed to withstand heavy loads. Join us in this exciting journey of innovation and construction.</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 5pm - 6pm</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/mechmania/power-truss" className={buttonVariants()}>RSVP Now</Link>

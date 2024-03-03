@@ -40,9 +40,9 @@ function Gaming() {
                                 <div className="mt-4">
                                     {/* Additional event information */}
                                     <p>Survive the chaos, Eliminate opponents, and be the last one standing to claim the coveted title of the ultimate BGMI champion.
-Register now for BGMI and join the Battlefield for the Epic Glory!</p><br />
+                                        Register now for BGMI and join the Battlefield for the Epic Glory!</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> 9th March: 12pm Onwards <br/> 10th March: 11am Onwards</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 9th March: 12pm Onwards <br /> 10th March: 11am Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/gaming/bgmi" className={buttonVariants()}>RSVP Now</Link>
@@ -62,7 +62,7 @@ Register now for BGMI and join the Battlefield for the Epic Glory!</p><br />
                                     {/* Additional event information */}
                                     <p>A football saga, a symphony of thrills with each kick, a labyrinth of twists and turns, weaving through defenses with breathtaking skill.</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> 9th March: 12pm Onwards <br/> 10th March: 11am Onwards</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 9th March: 12pm Onwards <br /> 10th March: 11am Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/gaming/fc24" className={buttonVariants()}>RSVP Now</Link>
@@ -82,7 +82,7 @@ Register now for BGMI and join the Battlefield for the Epic Glory!</p><br />
                                     {/* Additional event information */}
                                     <p>Get ready for an adrenaline-fueled showdown Just One QR Scan away from the VALORANT tournament! Make Elite teams, intense strategies, and jaw-dropping plays await. Brace yourself for an epic battle that will redefine esports greatness.</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> 9th March: 12pm Onwards <br/> 10th March: 11am Onwards</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> 9th March: 12pm Onwards <br /> 10th March: 11am Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/gaming/valorant" className={buttonVariants()}>RSVP Now</Link>
@@ -120,7 +120,7 @@ Register now for BGMI and join the Battlefield for the Epic Glory!</p><br />
                                 <p className="mt-1 text-sm text-gray-500">8th March 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>"Unleash your strategic genius on the digital battlefield of chess. Register now to sharpen your skills and outwit opponents in the ultimate game of intellect and precision."</p><br />
+                                    <p>Unleash your strategic genius on the digital battlefield of chess. Register now to sharpen your skills and outwit opponents in the ultimate game of intellect and precision.</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> 12pm Onwards</p>
                                 </div>

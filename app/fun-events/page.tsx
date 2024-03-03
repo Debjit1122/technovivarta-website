@@ -82,7 +82,7 @@ Hurry Up and Register your team to confirm your slot.</p><br />
                                     {/* Additional event information */}
                                     <p>Hello Everyone
 Here is LIVE LUDO main event for you.
-You have played LUDO on boards or on phones.... now it's time to play LUDO yourself on the field. 
+You have played LUDO on boards or on phones.... now it is time to play LUDO yourself on the field. 
 Sooo Hurry up, complete registration and book your slot</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> 11 am Onwards</p>

@@ -22,8 +22,8 @@ function Events() {
             <div className="mt-9x  grid grid-cols-1 gap-4 md:grid-cols-3">
               <Card className="rounded-lg p-4">
                 <Image
-                  src=""
-                  alt=""
+                  src="/computing.jpg"
+                  alt="computing"
                   className="mb-4 rounded-lg"
                   width={400}
                   height={200}
@@ -39,8 +39,8 @@ function Events() {
               </Card>
               <Card className="rounded-lg p-4">
                 <Image
-                  src=""
-                  alt=""
+                  src="/robotics.jpg"
+                  alt="robotics"
                   className="mb-4 rounded-lg"
                   width={400}
                   height={200}
@@ -56,8 +56,8 @@ function Events() {
               </Card>
               <Card className="rounded-lg p-4">
                 <Image
-                  src=""
-                  alt=""
+                  src="/gaming.jpg"
+                  alt="gaming"
                   className="mb-4 rounded-lg"
                   width={400}
                   height={200}
@@ -73,8 +73,8 @@ function Events() {
               </Card>
               <Card className="rounded-lg p-4">
                 <Image
-                  src=""
-                  alt=""
+                  src="/mechmania.jpg"
+                  alt="mechmania"
                   className="mb-4 rounded-lg"
                   width={400}
                   height={200}
@@ -84,7 +84,7 @@ function Events() {
                   {/* Additional event information */}
                   <p>Mechmania presents to you a series of events dedicated to the world of mechanical engineering and robotics in Techno Vivarta 2024, brought together a convergence of brilliant minds and cutting-edge technologies, captivating the audience with a spectacle of innovation and engineering excellence.
 
-</p><br />
+                  </p><br />
                 </div>
                 <div className="mt-4">
                   <Link href="/mechmania" className={buttonVariants()}>View Events</Link>
@@ -92,8 +92,8 @@ function Events() {
               </Card>
               <Card className="rounded-lg p-4">
                 <Image
-                  src=""
-                  alt=""
+                  src="/innovation-management.jpg"
+                  alt="innovation management"
                   className="mb-4 rounded-lg"
                   width={400}
                   height={200}
@@ -103,7 +103,7 @@ function Events() {
                   {/* Additional event information */}
                   <p>At the heart of our technological extravaganza at Techno Vivarta 2024 lie the Innovation Management events, providing a platform for bright minds to converge, collaborate, and catalyze groundbreaking ideas. In an era dominated by rapid advancements, these events are designed to explore the frontiers of innovation, pushing the boundaries of what is possible.
 
-</p><br />
+                  </p><br />
                 </div>
                 <div className="mt-4">
                   <Link href="/innovation-management" className={buttonVariants()}>View Events</Link>
@@ -111,7 +111,7 @@ function Events() {
               </Card>
               <Card className="rounded-lg p-4">
                 <Image
-                  src=""
+                  src="/fun-events.jpg"
                   alt=""
                   className="mb-4 rounded-lg"
                   width={400}
@@ -128,8 +128,8 @@ function Events() {
               </Card>
               <Card className="rounded-lg p-4">
                 <Image
-                  src=""
-                  alt=""
+                  src="/designing.jpg"
+                  alt="designing"
                   className="mb-4 rounded-lg"
                   width={400}
                   height={200}

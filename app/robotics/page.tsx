@@ -29,17 +29,17 @@ function Robotics() {
                         <div className="mt-9x  grid grid-cols-1 gap-4 md:grid-cols-3">
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
-                                    alt=""
+                                    src="/robowar.jpeg"
+                                    alt="robo war"
                                     className="mb-4 rounded-lg"
                                     width={400}
                                     height={200}
                                 />
-                                <h3 className="text-lg font-semibold">ROBO WAR</h3>
+                                <h3 className="text-lg font-semibold">ROBO WAR (15Kg)</h3>
                                 <p className="mt-1 text-sm text-gray-500">Event Date</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>Clash of titans! Robowar 2024 ignites. Program your 15kg bot for battle. Strategy, strength, and dominance decide the victor. Witness the robotic revolution!</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
                                 </div>
@@ -49,7 +49,7 @@ function Robotics() {
                             </Card>
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/line-follower.jpeg"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
@@ -59,7 +59,7 @@ function Robotics() {
                                 <p className="mt-1 text-sm text-gray-500">Event Date</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>Witness robotic precision at Line Follower! Sensors and lightning-fast reflexes guide bots on their path. Months of work culminate in a display of technological prowess. Be part of the future!</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
                                 </div>
@@ -69,7 +69,7 @@ function Robotics() {
                             </Card>
                             <Card className="rounded-lg p-4">
                                 <Image
-                                    src=""
+                                    src="/deathrace.jpeg"
                                     alt=""
                                     className="mb-4 rounded-lg"
                                     width={400}
@@ -79,7 +79,7 @@ function Robotics() {
                                 <p className="mt-1 text-sm text-gray-500">Event Date</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Event Desc</p><br />
+                                    <p>Metal gladiators hurtle in Deathrace! Bots weave through a treacherous gauntlet, pushing speed and strategy. Witness real-time decisions and daring maneuvers. Who reigns supreme?</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
                                 </div>

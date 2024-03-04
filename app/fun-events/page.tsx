@@ -27,7 +27,7 @@ function FunEvents() {
                             Upcoming Events
                         </h2>
                         <div className="mt-9x  grid grid-cols-1 gap-4 md:grid-cols-3">
-                            <Card className="rounded-lg p-4">
+                            {/* <Card className="rounded-lg p-4">
                                 <Image
                                     src="/food.jpeg"
                                     alt=""
@@ -38,7 +38,6 @@ function FunEvents() {
                                 <h3 className="text-lg font-semibold">Food Eating Competition</h3>
                                 <p className="mt-1 text-sm text-gray-500">9th March 2024</p>
                                 <div className="mt-4">
-                                    {/* Additional event information */}
                                     <p>Time is limited but Food is Unlimited. Come and consume as much as you can. Pre-book your slot, see you there.</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> 11 am onwards</p>
@@ -46,7 +45,7 @@ function FunEvents() {
                                 <div className="mt-6">
                                     <Link href="/fun-events/food-eating-competition" className={buttonVariants()}>RSVP Now</Link>
                                 </div>
-                            </Card>
+                            </Card> */}
                             <Card className="rounded-lg p-4">
                                 <Image
                                     src="/treasurehunt.jpeg"

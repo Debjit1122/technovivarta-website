@@ -111,7 +111,7 @@ function Events() {
               </Card>
               <Card className="rounded-lg p-4">
                 <Image
-                  src="/fun-events.jpg"
+                  src="/fun-events.jpeg"
                   alt=""
                   className="mb-4 rounded-lg"
                   width={400}

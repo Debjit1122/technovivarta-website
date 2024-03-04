@@ -60,7 +60,7 @@ function FunEvents() {
                                 <div className="mt-4">
                                     {/* Additional event information */}
                                     <p>Treasure Hunt Main event is Happening at Techno India University Campus.
-Hurry Up and Register your team to confirm your slot.</p><br />
+                                        Hurry Up and Register your team to confirm your slot.</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> 11 am onwards</p>
                                 </div>
@@ -81,14 +81,33 @@ Hurry Up and Register your team to confirm your slot.</p><br />
                                 <div className="mt-4">
                                     {/* Additional event information */}
                                     <p>Hello Everyone
-Here is LIVE LUDO main event for you.
-You have played LUDO on boards or on phones.... now it is time to play LUDO yourself on the field. 
-Sooo Hurry up, complete registration and book your slot</p><br />
+                                        Here is LIVE LUDO main event for you.
+                                        You have played LUDO on boards or on phones.... now it is time to play LUDO yourself on the field.
+                                        Sooo Hurry up, complete registration and book your slot</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> 11 am Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/fun-events/live-ludo" className={buttonVariants()}>RSVP Now</Link>
+                                </div>
+                            </Card>
+                            <Card className="rounded-lg p-4">
+                                <Image
+                                    src="/cosplay.jpg"
+                                    alt=""
+                                    className="mb-4 rounded-lg"
+                                    width={400}
+                                    height={200}
+                                />
+                                <h3 className="text-lg font-semibold">Cosplay</h3>
+                                <p className="mt-1 text-sm text-gray-500">10th March 2024</p>
+                                <div className="mt-4">
+                                    {/* Additional event information */}
+                                    <p>Step into a world of imagination and creativity! You are invited to join us for a fantastical gathering where your favorite characters come to life. Whether you are a seasoned cosplayer or just curious, embrace the magic with us at Techno Vivarta 2024. Let your imagination run wild, and be part of a captivating celebration of all things fantastical. We look forward to seeing you there!</p><br />
+                                    <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
+                                </div>
+                                <div className="mt-6">
+                                    <Link href="/fun-events/cosplay" className={buttonVariants()}>RSVP Now</Link>
                                 </div>
                             </Card>
                             {/* <Card className="rounded-lg p-4">
@@ -103,7 +122,7 @@ Sooo Hurry up, complete registration and book your slot</p><br />
                                 <p className="mt-1 text-sm text-gray-500">Event Date</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    {/* <p>Event Desc</p><br />
+                            {/* <p>Event Desc</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
                                 </div>
@@ -123,7 +142,7 @@ Sooo Hurry up, complete registration and book your slot</p><br />
                                 <p className="mt-1 text-sm text-gray-500">Event Date</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    {/* <p>Event Desc</p><br />
+                            {/* <p>Event Desc</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
                                 </div>
@@ -143,7 +162,7 @@ Sooo Hurry up, complete registration and book your slot</p><br />
                                 <p className="mt-1 text-sm text-gray-500">Event Date</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    {/* <p>Event Desc</p><br />
+                            {/* <p>Event Desc</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
                                 </div>
@@ -163,7 +182,7 @@ Sooo Hurry up, complete registration and book your slot</p><br />
                                 <p className="mt-1 text-sm text-gray-500">Event Date</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    {/* <p>Event Desc</p><br />
+                            {/* <p>Event Desc</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> Event Time</p>
                                 </div>
@@ -171,7 +190,7 @@ Sooo Hurry up, complete registration and book your slot</p><br />
                                     <Link href="/fun-events/live-ludo" className={buttonVariants()}>RSVP Now</Link>
                                 </div>
                             </Card>  */}
-                        
+
                             {/* <Card className="rounded-lg p-4">
                                 <Image
                                     src=""
@@ -184,14 +203,14 @@ Sooo Hurry up, complete registration and book your slot</p><br />
                                 <p className="mt-1 text-sm text-gray-500">9th March 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    {/* <p>Event Desc</p><br />
+                            {/* <p>Event Desc</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> 11 am Onwards</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/fun-events/live-ludo" className={buttonVariants()}>RSVP Now</Link>
                                 </div>
-                            </Card>  */} 
+                            </Card>  */}
                         </div>
                     </div>
                 </div>

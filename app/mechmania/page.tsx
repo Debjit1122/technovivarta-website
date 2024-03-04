@@ -81,7 +81,7 @@ function Mechmania() {
                                     {/* Additional event information */}
                                     <p>Building Bridges to Success! Prepare to unleash your creativity and engineering skills as you construct and test your own bridge, designed to withstand heavy loads. Join us in this exciting journey of innovation and construction.</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> 5pm - 6pm</p>
+                                    <p className="flex gap-2"><BiTime size={20} />12pm - 3pm</p>
                                 </div>
                                 <div className="mt-6">
                                     <Link href="/mechmania/power-truss" className={buttonVariants()}>RSVP Now</Link>

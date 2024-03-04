@@ -90,25 +90,6 @@ function FunEvents() {
                                     <Link href="/fun-events/live-ludo" className={buttonVariants()}>RSVP Now</Link>
                                 </div>
                             </Card>
-                            <Card className="rounded-lg p-4">
-                                <Image
-                                    src="/cosplay.jpg"
-                                    alt=""
-                                    className="mb-4 rounded-lg"
-                                    width={400}
-                                    height={200}
-                                />
-                                <h3 className="text-lg font-semibold">Cosplay</h3>
-                                <p className="mt-1 text-sm text-gray-500">10th March 2024</p>
-                                <div className="mt-4">
-                                    {/* Additional event information */}
-                                    <p>Step into a world of imagination and creativity! You are invited to join us for a fantastical gathering where your favorite characters come to life. Whether you are a seasoned cosplayer or just curious, embrace the magic with us at Techno Vivarta 2024. Let your imagination run wild, and be part of a captivating celebration of all things fantastical. We look forward to seeing you there!</p><br />
-                                    <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
-                                </div>
-                                <div className="mt-6">
-                                    <Link href="/fun-events/cosplay" className={buttonVariants()}>RSVP Now</Link>
-                                </div>
-                            </Card>
                             {/* <Card className="rounded-lg p-4">
                                 <Image
                                     src=""

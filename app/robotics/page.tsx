@@ -99,7 +99,7 @@ function Robotics() {
                                 <p className="mt-1 text-sm text-gray-500">9th March 2024 (Prelims)</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Metal gladiators clash in Robowar's Colosseum! Strategize, build, battle. Witness robot champions forged in the future of combat. Be there!</p><br />
+                                    <p>Metal gladiators clash in Robowar Colosseum! Strategize, build, battle. Witness robot champions forged in the future of combat. Be there!</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                                     <p className="flex gap-2"><BiTime size={20} /> 10 am Onwards</p>
                                 </div>

@@ -96,8 +96,9 @@ Register now for BGMI and join the Battlefield for the Epic Glory!</p><br />
                                     width={400}
                                     height={200}
                                 />
+                                
                                 <h3 className="text-lg font-semibold">E-Football</h3>
-                                <p className="mt-1 text-sm text-gray-500">8th March 2024</p>
+                                <p className="mt-1 text-sm text-gray-500">9th & 10th March 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
                                     <p>Experience the thrill of virtual soccer with e-Football, where the excitement of the beautiful game comes alive on mobiles, featuring immersive graphics and realistic gameplay</p><br />

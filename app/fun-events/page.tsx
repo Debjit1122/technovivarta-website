@@ -77,7 +77,7 @@ Hurry Up and Register your team to confirm your slot.</p><br />
                                     height={200}
                                 />
                                 <h3 className="text-lg font-semibold">Live Ludo</h3>
-                                <p className="mt-1 text-sm text-gray-500">8th & 9th March</p>
+                                <p className="mt-1 text-sm text-gray-500">9th March 2024</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
                                     <p>Hello Everyone

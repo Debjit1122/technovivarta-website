@@ -198,7 +198,7 @@ function Team() {
       name: 'Aaranya Ghoshal',
       designation: 'Member',
       domain: 'Core Team',
-      image: '/Aaranya.jpg',
+      image: '/Aranhya.jpeg',
       featured: false,
     },
     {

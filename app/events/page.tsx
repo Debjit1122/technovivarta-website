@@ -79,6 +79,30 @@ function Events() {
           </div>
           <div>
             <div className="mt-9x  grid grid-cols-1 gap-4 md:grid-cols-3">
+            {events.map((event) => (
+                            <Card key={event._id} className="rounded-lg p-4">
+                                <Image
+                                    src={event.image}
+                                    alt={event.title}
+                                    className="mb-4 rounded-lg"
+                                    width={400}
+                                    height={200}
+                                />
+                                <h3 className="text-lg font-semibold">{event.title}</h3>
+                                <p className="mt-1 text-sm text-gray-500">{event.date}</p>
+                                <div className="mt-4">
+                                    {/* Additional event information */}
+                                    <p>{event.shortDescription}</p><br />
+                                    <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} /> {event.venue}</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> {event.time}</p>
+                                </div>
+                                <div className="mt-6">
+                                    <Link href={event.rsvplink} className={buttonVariants()}>RSVP Now</Link>
+                                </div>
+                            </Card>
+                        ))}
+
+
               <Card className="rounded-lg p-4">
                 <Image
                   src="/computing.jpg"
@@ -224,28 +248,7 @@ function Events() {
 
               {/* new event  */}
               {/* <div className="mt-9x  grid grid-cols-1 gap-4 md:grid-cols-3"> */}
-                        {events.map((event) => (
-                            <Card key={event._id} className="rounded-lg p-4">
-                                <Image
-                                    src={event.image}
-                                    alt={event.title}
-                                    className="mb-4 rounded-lg"
-                                    width={400}
-                                    height={200}
-                                />
-                                <h3 className="text-lg font-semibold">{event.title}</h3>
-                                <p className="mt-1 text-sm text-gray-500">{event.date}</p>
-                                <div className="mt-4">
-                                    {/* Additional event information */}
-                                    <p>{event.shortDescription}</p><br />
-                                    <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} /> {event.venue}</p>
-                                    <p className="flex gap-2"><BiTime size={20} /> {event.time}</p>
-                                </div>
-                                <div className="mt-6">
-                                    <Link href={event.rsvplink} className={buttonVariants()}>RSVP Now</Link>
-                                </div>
-                            </Card>
-                        ))}
+                       
                     {/* </div> */}
             </div>
           </div>

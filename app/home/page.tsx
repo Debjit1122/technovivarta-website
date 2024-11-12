@@ -96,6 +96,17 @@ export default function Home() {
             image: "/comingEvent3.jpeg",
             rsvplink: ""
         },
+        {
+            _id: "4",
+            title: "BLAST OFF",
+            date: "2024-11-19",
+            shortDescription: `Join us for an exciting scavenger hunt on November 16th! organized by TEAM TAKSHILA. Put your problem-solving skills to the test as you race against the clock to find hidden clues and complete challenges. Gather your team, wear your competitive shoes, and be prepared for a day of adventure and fun.`,
+            venue: "TECHNO INDIA UNIVERSITY",
+            time: "1pm onwards",
+            image: "/comingEvent4.jpeg",
+            rsvplink: ""
+        },
+    
 
     ]
 

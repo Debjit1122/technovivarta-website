@@ -4,7 +4,64 @@ import Image from "next/image";
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 import { MdOutlineLocationOn } from "react-icons/md";
+import { BiTime } from "react-icons/bi";
 function Events() {
+
+  interface Event {
+    _id: string
+    title: string
+    date: string
+    shortDescription: string
+    venue: string
+    time: string
+    image: string // Adjust the type as per your actual data structure
+    rsvplink: string
+}
+  const events: Event[] = [
+    {
+        _id: "1",
+        title: "IDEATHON",
+        date: "2024-11-21",
+        shortDescription: "Ignite Your Imagination: Join the Ideathon Extravaganza ‼ Are you ready to showcase your innovative thinking and collaborate with like-minded visionaries? Join us at our IDEATHON Win Prizes and Certificates!!! Receive Feedbacks and Guidences✨ Maximum team of 4",
+        venue: "TIU",
+        time: "10:00 AM - 5:00 PM",
+        image: "/comingEvent1.jpeg",
+        rsvplink: "https://forms.gle/FRUEgw3xVd8fpyE17"
+    },
+    {
+        _id: "2",
+        title: "ROBOTICS WORKSHOP",
+        date: "2024-11-18",
+        shortDescription: `Step into a world of wonder at our Robotics Workshop and Bot Showcase Event! 
+        Meet the Champions: Learn from the Blackbird Robotix Team 🎓, renowned for their exceptional skills and multiple competition victories! 🏆
+        Interactive Experiences: Engage with live demonstrations, hands-on workshops, and expert insights that will ignite your passion for robotics. 🌍💡`,
+        venue: "Seminar Hall",
+        time: "2pm onwards",
+        image: "/comingEvent2.jpeg",
+        rsvplink: " https://forms.gle/JZ3cWC2eFiQ4GJ919 "
+    },
+    {
+        _id: "3",
+        title: "Scavenger Hunt: A Fun-Filled Adventure!",
+        date: "2024-11-18",
+        shortDescription: `Join us for an exciting scavenger hunt on November 16th! organized by TEAM TAKSHILA. Put your problem-solving skills to the test as you race against the clock to find hidden clues and complete challenges. Gather your team, wear your competitive shoes, and be prepared for a day of adventure and fun.`,
+        venue: "TECHNO INDIA UNIVERSITY SEMINAR HALL",
+        time: "12pm onwards",
+        image: "/comingEvent3.jpeg",
+        rsvplink: ""
+    },
+    {
+        _id: "4",
+        title: "BLAST OFF",
+        date: "2024-11-19",
+        shortDescription: `Join us for an exciting scavenger hunt on November 16th! organized by TEAM TAKSHILA. Put your problem-solving skills to the test as you race against the clock to find hidden clues and complete challenges. Gather your team, wear your competitive shoes, and be prepared for a day of adventure and fun.`,
+        venue: "TECHNO INDIA UNIVERSITY",
+        time: "1pm onwards",
+        image: "/comingEvent4.jpeg",
+        rsvplink: ""
+    },
+
+]
 
   return (
     <div>
@@ -144,25 +201,51 @@ function Events() {
                   <Link href="/designing" className={buttonVariants()}>View Events</Link>
                 </div>
               </Card>
-                                          <Card className="rounded-lg p-4">
+              <Card className="rounded-lg p-4">
+                <Image
+                  src="/cosplay.jpg"
+                  alt=""
+                  className="mb-4 rounded-lg"
+                  width={400}
+                  height={200}
+                />
+                <h3 className="text-lg font-semibold">Cosplay</h3>
+                <p className="mt-1 text-sm text-gray-500">10th March 2024</p>
+                <div className="mt-4">
+                  {/* Additional event information */}
+                  <p>Step into a world of imagination and creativity! You are invited to join us for a fantastical gathering where your favorite characters come to life. Whether you are a seasoned cosplayer or just curious, embrace the magic with us at Techno Vivarta 2024. Let your imagination run wild, and be part of a captivating celebration of all things fantastical. We look forward to seeing you there!</p><br />
+                  <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
+                </div>
+                <div className="mt-6">
+                  <Link href="/events/cosplay" className={buttonVariants()}>RSVP Now</Link>
+                </div>
+              </Card>
+
+              {/* new event  */}
+              {/* <div className="mt-9x  grid grid-cols-1 gap-4 md:grid-cols-3"> */}
+                        {events.map((event) => (
+                            <Card key={event._id} className="rounded-lg p-4">
                                 <Image
-                                    src="/cosplay.jpg"
-                                    alt=""
+                                    src={event.image}
+                                    alt={event.title}
                                     className="mb-4 rounded-lg"
                                     width={400}
                                     height={200}
                                 />
-                                <h3 className="text-lg font-semibold">Cosplay</h3>
-                                <p className="mt-1 text-sm text-gray-500">10th March 2024</p>
+                                <h3 className="text-lg font-semibold">{event.title}</h3>
+                                <p className="mt-1 text-sm text-gray-500">{event.date}</p>
                                 <div className="mt-4">
                                     {/* Additional event information */}
-                                    <p>Step into a world of imagination and creativity! You are invited to join us for a fantastical gathering where your favorite characters come to life. Whether you are a seasoned cosplayer or just curious, embrace the magic with us at Techno Vivarta 2024. Let your imagination run wild, and be part of a captivating celebration of all things fantastical. We look forward to seeing you there!</p><br />
-                                    <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
+                                    <p>{event.shortDescription}</p><br />
+                                    <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} /> {event.venue}</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> {event.time}</p>
                                 </div>
                                 <div className="mt-6">
-                                    <Link href="/events/cosplay" className={buttonVariants()}>RSVP Now</Link>
+                                    <Link href={event.rsvplink} className={buttonVariants()}>RSVP Now</Link>
                                 </div>
                             </Card>
+                        ))}
+                    {/* </div> */}
             </div>
           </div>
         </div>

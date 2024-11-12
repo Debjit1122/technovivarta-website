@@ -196,7 +196,7 @@ function Team() {
     {
       _id: '21',
       name: 'Aaranya Ghoshal',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Aaranya.jpg',
       featured: false,
@@ -204,7 +204,7 @@ function Team() {
     {
       _id: '22',
       name: 'Tripti Gupta',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Tripti.jpg',
       featured: false,
@@ -212,7 +212,7 @@ function Team() {
     {
       _id: '23',
       name: 'Ankit Agarwal',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Ankit.jpg',
       featured: false,
@@ -220,7 +220,7 @@ function Team() {
     {
       _id: '24',
       name: 'Asmita Mallick',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Asmita.jpg',
       featured: false,
@@ -228,7 +228,7 @@ function Team() {
     {
       _id: '25',
       name: 'Kusum Banerjee',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Kusum.jpg',
       featured: false,
@@ -236,7 +236,7 @@ function Team() {
     {
       _id: '26',
       name: 'Animesh Maity',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/animesh.jpg',
       featured: false,
@@ -244,7 +244,7 @@ function Team() {
     {
       _id: '27',
       name: 'Paramita Mandal',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Paramita.JPG',
       featured: false,
@@ -252,7 +252,7 @@ function Team() {
     {
       _id: '28',
       name: 'Anirban Mallick',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Ani.JPG',
       featured: false,
@@ -260,7 +260,7 @@ function Team() {
     {
       _id: '29',
       name: 'Anuhya Bose',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Anuhya.JPG',
       featured: false,
@@ -268,7 +268,7 @@ function Team() {
     {
       _id: '30',
       name: 'Joydwipta Basak',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Joydwipta.jpg',
       featured: false,
@@ -276,7 +276,7 @@ function Team() {
     {
       _id: '31',
       name: 'Anishka Bharti',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Anishka.jpg',
       featured: false,
@@ -284,7 +284,7 @@ function Team() {
     {
       _id: '32',
       name: 'Lopamudra Dey',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Lopa.jpg',
       featured: false,
@@ -292,7 +292,7 @@ function Team() {
     {
       _id: '33',
       name: 'Subhadeep Mondal',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Subhodeep.jpg',
       featured: false,
@@ -300,7 +300,7 @@ function Team() {
     {
       _id: '34',
       name: 'Aditya Chowdhury',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Aditya.jpg',
       featured: false,
@@ -308,7 +308,7 @@ function Team() {
     {
       _id: '35',
       name: 'Sandipto Das',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Sandipto.jpg',
       featured: false,
@@ -316,7 +316,7 @@ function Team() {
     {
       _id: '36',
       name: 'Anushmita Saha',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Anushmita.jpg',
       featured: false,
@@ -324,7 +324,7 @@ function Team() {
     {
       _id: '37',
       name: 'Rani Bhattacharya',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Rani .jpg',
       featured: false,
@@ -332,7 +332,7 @@ function Team() {
     {
       _id: '38',
       name: 'Adwitiya Santra',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Adwitiya .jpg',
       featured: false,
@@ -340,7 +340,7 @@ function Team() {
     {
       _id: '39',
       name: 'Pritha Guha Thakurta',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Pritha.jpg',
       featured: false,
@@ -348,7 +348,7 @@ function Team() {
     {
       _id: '40',
       name: 'Soumyadeep Saha',
-      designation: 'member',
+      designation: 'Member',
       domain: 'Core Team',
       image: '/Soumyadeep.jpg',
       featured: false,

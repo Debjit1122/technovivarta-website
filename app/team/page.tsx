@@ -184,7 +184,7 @@ function Team() {
     },
     {
       _id: '20',
-      name: 'Shreyashee Dhar',
+      name: 'Shreyosee Dhar',
       designation: 'Domain POC',
       domain: 'Public & Relations',
       image: '/Shreyosee.jpg',

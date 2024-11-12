@@ -238,7 +238,7 @@ function Team() {
       name: 'Animesh Maity',
       designation: 'member',
       domain: 'Core Team',
-      image: '/Animesh.jpg',
+      image: '/animesh.jpg',
       featured: false,
     },
     {
@@ -246,7 +246,7 @@ function Team() {
       name: 'Paramita Mandal',
       designation: 'member',
       domain: 'Core Team',
-      image: '/Paramita.jpg',
+      image: '/Paramita.JPG',
       featured: false,
     },
     {
@@ -254,7 +254,7 @@ function Team() {
       name: 'Anirban Mallick',
       designation: 'member',
       domain: 'Core Team',
-      image: '/Ani.jpg',
+      image: '/Ani.JPG',
       featured: false,
     },
     {
@@ -262,7 +262,7 @@ function Team() {
       name: 'Anuhya Bose',
       designation: 'member',
       domain: 'Core Team',
-      image: '/Anuhya.jpg',
+      image: '/Anuhya.JPG',
       featured: false,
     },
     {

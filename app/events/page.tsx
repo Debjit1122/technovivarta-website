@@ -54,11 +54,12 @@ function Events() {
         _id: "4",
         title: "BLAST OFF",
         date: "2024-11-19",
-        shortDescription: `Join us for an exciting scavenger hunt on November 16th! organized by TEAM TAKSHILA. Put your problem-solving skills to the test as you race against the clock to find hidden clues and complete challenges. Gather your team, wear your competitive shoes, and be prepared for a day of adventure and fun.`,
+        shortDescription: `BLAST OFF with Team MechMania! Ready to Soar to New Heights? 
+            Join Team MechMania at the most thrilling Bottle Rocket event of the year — BLAST OFF! Experience the rush as teams race to see who can launch their rockets the highest and farthest!`,
         venue: "TECHNO INDIA UNIVERSITY",
         time: "1pm onwards",
         image: "/comingEvent4.jpeg",
-        rsvplink: ""
+        rsvplink: "https://forms.gle/hBCHCtNKwtipMCnk9"
     },
 
 ]

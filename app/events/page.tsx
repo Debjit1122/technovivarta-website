@@ -19,48 +19,68 @@ function Events() {
 }
   const events: Event[] = [
     {
-        _id: "1",
-        title: "IDEATHON",
-        date: "2024-11-21",
-        shortDescription: "Ignite Your Imagination: Join the Ideathon Extravaganza ‼ Are you ready to showcase your innovative thinking and collaborate with like-minded visionaries? Join us at our IDEATHON Win Prizes and Certificates!!! Receive Feedbacks and Guidences✨ Maximum team of 4",
-        venue: "TIU",
-        time: "10:00 AM - 5:00 PM",
-        image: "/comingEvent1.jpeg",
-        rsvplink: "https://forms.gle/FRUEgw3xVd8fpyE17"
-    },
+      _id: "6",
+      title: " Rover 4.0",
+      date: "2024-12-07",
+      shortDescription: "Join Takshila`s Intense One day Gaming Blitz at Techno India University.Conquer challenges , emerge victorious against esteemed rivals and secure your gaming legacy at Rover 4.0",
+      venue: "TIU",
+      time: "",
+      image: "/Rover.jpg",
+      rsvplink: "https://linktr.ee/vivartatechno?utm_source=linktree_profile_share&ltsid=4a15a29d-1d1f-4171-b52b-4613a6089903"
+  },
     {
-        _id: "2",
-        title: "ROBOTICS WORKSHOP",
-        date: "2024-11-18",
-        shortDescription: `Step into a world of wonder at our Robotics Workshop and Bot Showcase Event! 
-        Meet the Champions: Learn from the Blackbird Robotix Team 🎓, renowned for their exceptional skills and multiple competition victories! 🏆
-        Interactive Experiences: Engage with live demonstrations, hands-on workshops, and expert insights that will ignite your passion for robotics. 🌍💡`,
-        venue: "Seminar Hall",
-        time: "2pm onwards",
-        image: "/comingEvent2.jpeg",
-        rsvplink: " https://forms.gle/JZ3cWC2eFiQ4GJ919 "
-    },
-    {
-        _id: "3",
-        title: "Scavenger Hunt: A Fun-Filled Adventure!",
-        date: "2024-11-18",
-        shortDescription: `Join us for an exciting scavenger hunt on November 16th! organized by TEAM TAKSHILA. Put your problem-solving skills to the test as you race against the clock to find hidden clues and complete challenges. Gather your team, wear your competitive shoes, and be prepared for a day of adventure and fun.`,
-        venue: "TECHNO INDIA UNIVERSITY SEMINAR HALL",
-        time: "12pm onwards",
-        image: "/comingEvent3.jpeg",
-        rsvplink: ""
-    },
-    {
-        _id: "4",
-        title: "BLAST OFF",
-        date: "2024-11-19",
-        shortDescription: `BLAST OFF with Team MechMania! Ready to Soar to New Heights? 
-            Join Team MechMania at the most thrilling Bottle Rocket event of the year — BLAST OFF! Experience the rush as teams race to see who can launch their rockets the highest and farthest!`,
-        venue: "TECHNO INDIA UNIVERSITY",
-        time: "1pm onwards",
-        image: "/comingEvent4.jpeg",
-        rsvplink: "https://forms.gle/hBCHCtNKwtipMCnk9"
-    },
+      _id: "5",
+      title: "Hacktopia",
+      date: "2024-11-30",
+      shortDescription: "Solve real-world problems in Healthcare, AI, Cybersecurity, Blockchain, and more! 🌟 👥 Team Size: 1-4 🏆 Prizes: Exciting rewards! 🗓 Register by: Nov 30th 🕒 Platform: Online📍 Finale: In-person",
+      venue: "TIU",
+      time: "Online",
+      image: "/comingEvent5.jpeg",
+      rsvplink: "https://forms.gle/pDqEhzerQcr68vX98"
+  },
+    // {
+    //     _id: "1",
+    //     title: "IDEATHON",
+    //     date: "2024-11-21",
+    //     shortDescription: "Ignite Your Imagination: Join the Ideathon Extravaganza ‼ Are you ready to showcase your innovative thinking and collaborate with like-minded visionaries? Join us at our IDEATHON Win Prizes and Certificates!!! Receive Feedbacks and Guidences✨ Maximum team of 4",
+    //     venue: "TIU",
+    //     time: "10:00 AM - 5:00 PM",
+    //     image: "/comingEvent1.jpeg",
+    //     rsvplink: "https://forms.gle/FRUEgw3xVd8fpyE17"
+    // },
+    // {
+    //     _id: "2",
+    //     title: "ROBOTICS WORKSHOP",
+    //     date: "2024-11-18",
+    //     shortDescription: `Step into a world of wonder at our Robotics Workshop and Bot Showcase Event! 
+    //     Meet the Champions: Learn from the Blackbird Robotix Team 🎓, renowned for their exceptional skills and multiple competition victories! 🏆
+    //     Interactive Experiences: Engage with live demonstrations, hands-on workshops, and expert insights that will ignite your passion for robotics. 🌍💡`,
+    //     venue: "Seminar Hall",
+    //     time: "2pm onwards",
+    //     image: "/comingEvent2.jpeg",
+    //     rsvplink: " https://forms.gle/JZ3cWC2eFiQ4GJ919 "
+    // },
+    // {
+    //     _id: "3",
+    //     title: "Scavenger Hunt: A Fun-Filled Adventure!",
+    //     date: "2024-11-18",
+    //     shortDescription: `Join us for an exciting scavenger hunt on November 16th! organized by TEAM TAKSHILA. Put your problem-solving skills to the test as you race against the clock to find hidden clues and complete challenges. Gather your team, wear your competitive shoes, and be prepared for a day of adventure and fun.`,
+    //     venue: "TECHNO INDIA UNIVERSITY SEMINAR HALL",
+    //     time: "12pm onwards",
+    //     image: "/comingEvent3.jpeg",
+    //     rsvplink: ""
+    // },
+    // {
+    //     _id: "4",
+    //     title: "BLAST OFF",
+    //     date: "2024-11-19",
+    //     shortDescription: `BLAST OFF with Team MechMania! Ready to Soar to New Heights? 
+    //         Join Team MechMania at the most thrilling Bottle Rocket event of the year — BLAST OFF! Experience the rush as teams race to see who can launch their rockets the highest and farthest!`,
+    //     venue: "TECHNO INDIA UNIVERSITY",
+    //     time: "1pm onwards",
+    //     image: "/comingEvent4.jpeg",
+    //     rsvplink: "https://forms.gle/hBCHCtNKwtipMCnk9"
+    // },
 
 ]
 

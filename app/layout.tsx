@@ -55,7 +55,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                     <Link href="#" className="flex items-center text-2xl font-semibold transition duration-300">
                       <Image src="/logo.png" width={80} height={80} alt="Techno Vivarta" />
                       <Image src="/TIU SOF.png" width={250} height={200} alt="Techno Vivarta" />
-                      <Image src="/Takshila.jpeg" width={80} height={80} alt="Techno Vivarta" />
+                      <Image src="/Takshila White.png" width={90} height={90} alt="Techno Vivarta" />
 
                     </Link>
                   </div>

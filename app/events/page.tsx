@@ -111,7 +111,6 @@ function Events() {
                                 <h3 className="text-lg font-semibold">{event.title}</h3>
                                 <p className="mt-1 text-sm text-gray-500">{event.date}</p>
                                 <div className="mt-4">
-                                    {/* Additional event information */}
                                     <p>{event.shortDescription}</p><br />
                                     <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} /> {event.venue}</p>
                                     <p className="flex gap-2"><BiTime size={20} /> {event.time}</p>
@@ -122,7 +121,7 @@ function Events() {
                             </Card>
                         ))}
 
-
+{/* 
               <Card className="rounded-lg p-4">
                 <Image
                   src="/computing.jpg"
@@ -133,7 +132,6 @@ function Events() {
                 />
                 <h3 className="text-lg font-semibold">Computing</h3>
                 <div className="mt-4">
-                  {/* Additional event information */}
                   <p>🎉 Calling all Coders, Android Developers and Web Developers! 🎉 Are you ready to showcase your skills and compete against the best in the industry? Participate in our upcoming contests at Techno VIVARTA 2024 and stand a chance to win lucrative cash prizes! 🤩</p><br />
                 </div>
                 <div className="mt-4">
@@ -150,7 +148,6 @@ function Events() {
                 />
                 <h3 className="text-lg font-semibold">Robotics</h3>
                 <div className="mt-4">
-                  {/* Additional event information */}
                   <p>Witness the clash of titans as meticulously crafted robots face off in a riveting battle for supremacy. Teams will pit their custom-built bots against each other in an adrenaline-fueled competition, showcasing not only the technical prowess of their creations but also the strategic brilliance of their control. 🤖⚔️</p><br />
                 </div>
                 <div className="mt-4">
@@ -167,7 +164,6 @@ function Events() {
                 />
                 <h3 className="text-lg font-semibold">Gaming</h3>
                 <div className="mt-4">
-                  {/* Additional event information */}
                   <p>Techno Vivarta 2024 invites gamers, tech enthusiasts, and innovators to join a celebration of the digital future. Immerse yourself in the thrilling world of gaming and connect with like-minded individuals who share a passion for pushing the boundaries of what is possible in the gaming universe. Get ready for an unforgettable journey into the realms of technology and gaming at Techno Vivarta 2024! 🚀🎮</p><br />
                 </div>
                 <div className="mt-4">
@@ -184,7 +180,6 @@ function Events() {
                 />
                 <h3 className="text-lg font-semibold">MechMania</h3>
                 <div className="mt-4">
-                  {/* Additional event information */}
                   <p>Mechmania presents to you a series of events dedicated to the world of mechanical engineering and robotics in Techno Vivarta 2024, brought together a convergence of brilliant minds and cutting-edge technologies, captivating the audience with a spectacle of innovation and engineering excellence.
 
                   </p><br />
@@ -203,7 +198,6 @@ function Events() {
                 />
                 <h3 className="text-lg font-semibold">Innovation Management</h3>
                 <div className="mt-4">
-                  {/* Additional event information */}
                   <p>At the heart of our technological extravaganza at Techno Vivarta 2024 lie the Innovation Management events, providing a platform for bright minds to converge, collaborate, and catalyze groundbreaking ideas. In an era dominated by rapid advancements, these events are designed to explore the frontiers of innovation, pushing the boundaries of what is possible.
 
                   </p><br />
@@ -222,7 +216,6 @@ function Events() {
                 />
                 <h3 className="text-lg font-semibold">Fun Events</h3>
                 <div className="mt-4">
-                  {/* Additional event information */}
                   <p>Prepare for a thrilling ride through the lighter side of technology at Techno Vivarta 2024! In addition to the cutting-edge innovations and fierce competitions, we present an array of fun events that promise to inject joy, laughter, and camaraderie into this tech-centric celebration. Join us for a celebration where the world of technology meets the joy of carnival!</p><br />
                 </div>
                 <div className="mt-4">
@@ -239,7 +232,6 @@ function Events() {
                 />
                 <h3 className="text-lg font-semibold">Designing</h3>
                 <div className="mt-4">
-                  {/* Additional event information */}
                   <p>In this era of rapid technological advancement, design plays a pivotal role in shaping user experiences, solving complex problems, and driving business success. Techno Vivarta 2024 brings you designing challenges and competitions will provide participants with a platform to showcase their creativity and problem-solving abilities, with exciting prizes up for grabs.</p><br />
                 </div>
                 <div className="mt-4">
@@ -257,14 +249,13 @@ function Events() {
                 <h3 className="text-lg font-semibold">Cosplay</h3>
                 <p className="mt-1 text-sm text-gray-500">10th March 2024</p>
                 <div className="mt-4">
-                  {/* Additional event information */}
                   <p>Step into a world of imagination and creativity! You are invited to join us for a fantastical gathering where your favorite characters come to life. Whether you are a seasoned cosplayer or just curious, embrace the magic with us at Techno Vivarta 2024. Let your imagination run wild, and be part of a captivating celebration of all things fantastical. We look forward to seeing you there!</p><br />
                   <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} />Techno India University</p>
                 </div>
                 <div className="mt-6">
                   <Link href="/events/cosplay" className={buttonVariants()}>RSVP Now</Link>
                 </div>
-              </Card>
+              </Card>  */}
 
               {/* new event  */}
               {/* <div className="mt-9x  grid grid-cols-1 gap-4 md:grid-cols-3"> */}

@@ -685,7 +685,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
+{/* new section  */}
             <section className="bg-background py-8 md:py-12">
                 <div className="container mx-auto">
                     <h2 className="text-center text-2xl font-extrabold leading-tight tracking-tighter md:text-3xl lg:text-4xl">

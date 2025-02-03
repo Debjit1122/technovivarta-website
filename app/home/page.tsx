@@ -676,6 +676,44 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+
+            <section className="bg-background py-8 md:py-12">
+                <div className="container mx-auto">
+                    <h2 className="text-center text-2xl font-extrabold leading-tight tracking-tighter md:text-3xl lg:text-4xl">
+                        Marchendice
+                    </h2>
+                    <p className="mb-9 mt-3 text-center text-lg md:text-xl lg:text-2xl">
+                        Buy Techno Vivarta T-Shirt
+                    </p>
+                    <div className="mt-9x  grid grid-cols-1 gap-4 md:grid-cols-3">
+                            <Card  className="rounded-lg p-4">
+                                <Image
+                                    src="/Mockup.png"
+                                    alt="tshirt"
+                                    className="mb-4 rounded-lg"
+                                    width={400}
+                                    height={200}
+                                />
+                                <h3 className="text-lg font-semibold">Techno Vivarta T-Shirt</h3>
+                                <p className="mt-1 text-sm text-gray-500"></p>
+                                <div className="mt-4">
+                                    {/* Additional event information */}
+                                    {/* <p>{event.shortDescription}</p><br /> */}
+                                    {/* <p className="mb-3 flex gap-2"><MdOutlineLocationOn size={20} /> {event.venue}</p>
+                                    <p className="flex gap-2"><BiTime size={20} /> {event.time}</p> */}
+                                </div>
+                                <div className="mt-6">
+                                    <Link href="https://forms.gle/1AGFW8eJgLRraHVT6" className={buttonVariants()}>Buy Now</Link>
+                                </div>
+                            </Card>
+
+                    </div>
+                </div>
+            </section>
+
+
+
             <section className="py-10">
                 <div className="container mx-auto text-center">
                     <div className="grid grid-cols-1 gap-6 md:grid-cols-3">

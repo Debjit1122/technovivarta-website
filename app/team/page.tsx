@@ -32,16 +32,16 @@ function Team() {
       instagram: 'https://www.instagram.com/sanskar.2501?igsh=MTJrOTVvbHFiaTJ6bQ==',
       featured: true,
     },
-    {
-      _id: '2',
-      name: 'Arijit Konar',
-      designation: 'Management Lead',
-      domain: 'Management',
-      image: '/Konar.jpg',
-      linkedin: 'https://www.linkedin.com/in/arijit-k-941128296/',
-      instagram: 'https://www.instagram.com/charybd1sss?igsh=NXQ4N3c5eWM3aWF0',
-      featured: true,
-    },
+    // {
+    //   _id: '2',
+    //   name: 'Arijit Konar',
+    //   designation: 'Management Lead',
+    //   domain: 'Management',
+    //   image: '/Konar.jpg',
+    //   linkedin: 'https://www.linkedin.com/in/arijit-k-941128296/',
+    //   instagram: 'https://www.instagram.com/charybd1sss?igsh=NXQ4N3c5eWM3aWF0',
+    //   featured: true,
+    // },
     {
       _id: '3',
       name: 'Tannishtho Das Gupta',
@@ -50,14 +50,14 @@ function Team() {
       image: '/Rio 1.jpg',
       featured: true,
     },
-    {
-      _id: '4',
-      name: 'Shreya Moulick',
-      designation: 'Management Lead',
-      domain: 'Management',
-      image: '/Moulick 2.jpg',
-      featured: true,
-    },
+    // {
+    //   _id: '4',
+    //   name: 'Shreya Moulick',
+    //   designation: 'Management Lead',
+    //   domain: 'Management',
+    //   image: '/Moulick 2.jpg',
+    //   featured: true,
+    // },
     {
       _id: '5',
       name: 'Gunja Yadav',
@@ -65,6 +65,8 @@ function Team() {
       domain: 'Management',
       image: '/Gunja.jpg',
       featured: true,
+      linkedin: 'https://www.linkedin.com/in/gunja-yadav',
+      instagram: 'https://www.instagram.com/gunja__g1?igsh=MXc1bmsxb2p1MW9pZg=='
     },
 
     // Executive Leads
@@ -418,60 +420,9 @@ function Team() {
 
           <h4 className="mb-9 text-center text-xl font-extrabold leading-tight">Management Leads</h4>
           <div className="animate__animated animate__fadeIn team-row mb-6">
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-              {managementLeads.slice(0, 2).map((teamMember) => (
-                <Card key={teamMember._id} className="flex flex-col items-center justify-center">
-                  <CardHeader>
-                    <Image
-                      src={teamMember.image}
-                      alt={teamMember.name}
-                      className="h-[200px] w-[200px] overflow-hidden rounded-full"
-                      style={{ objectFit: "cover", objectPosition: "center" }}
-                      width={200}
-                      height={200}
-                    />
-                  </CardHeader>
-                  <CardContent className="flex flex-col items-center justify-center text-center">
-                    <div>
-                      <h4 className="text-lg font-semibold">{teamMember.name}</h4>
-                      <p className="text-sm text-gray-600">{teamMember.designation}</p>
-                    </div>
-                    <div className="mt-3 flex gap-3">
-                      {teamMember.linkedin && (
-                        <Link
-                          href={teamMember.linkedin}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <FaLinkedinIn size={20} />
-                        </Link>
-                      )}
-                      {teamMember.facebook && (
-                        <Link
-                          href={teamMember.facebook}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <FaFacebook size={20} />
-                        </Link>
-                      )}
-                      {teamMember.instagram && (
-                        <Link
-                          href={teamMember.instagram}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <FaInstagram size={20} />
-                        </Link>
-                      )}
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
 
             <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-6">
-              {managementLeads.slice(2).map((teamMember) => (
+              {managementLeads.map((teamMember) => (
                 <Card key={teamMember._id} className="flex flex-col items-center justify-center">
                   <CardHeader>
                     <Image

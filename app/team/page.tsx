@@ -146,6 +146,14 @@ function Team() {
     },
     {
       _id: '15',
+      name: 'Anusha Chakraborty',
+      designation: 'Domain Lead',
+      domain: 'Innovation and Management',
+      image: '/Anusha.jpg',
+      featured: false,
+    },
+    {
+      _id: '16',
       name: 'Debanjali Das',
       designation: 'Domain Lead',
       domain: 'Mechmania',
@@ -153,7 +161,7 @@ function Team() {
       featured: false,
     },
     {
-      _id: '16',
+      _id: '17',
       name: 'Devrup Ghosh',
       designation: 'Domain Lead',
       domain: 'Mechmania',
@@ -161,7 +169,7 @@ function Team() {
       featured: false,
     },
     {
-      _id: '17',
+      _id: '18',
       name: 'Vishal Thakur',
       designation: 'Domain Lead',
       domain: 'Robotics',
@@ -169,7 +177,7 @@ function Team() {
       featured: false,
     },
     {
-      _id: '18',
+      _id: '19',
       name: 'Triparna Singha',
       designation: 'Domain Lead',
       domain: 'Robotics',
@@ -177,7 +185,7 @@ function Team() {
       featured: false,
     },
     {
-      _id: '19',
+      _id: '20',
       name: 'Trambak Ganguly',
       designation: 'Domain POC',
       domain: 'Designing',
@@ -185,7 +193,7 @@ function Team() {
       featured: false,
     },
     {
-      _id: '20',
+      _id: '21',
       name: 'Shreyosee Dhar',
       designation: 'Domain POC',
       domain: 'Public & Relations',
@@ -228,27 +236,11 @@ function Team() {
       featured: false,
     },
     {
-      _id: '25',
-      name: 'Kusum Banerjee',
-      designation: 'Member',
-      domain: 'Core Team',
-      image: '/Kusum.jpg',
-      featured: false,
-    },
-    {
       _id: '26',
       name: 'Animesh Maity',
       designation: 'Member',
       domain: 'Core Team',
       image: '/animesh.jpg',
-      featured: false,
-    },
-    {
-      _id: '27',
-      name: 'Paramita Mandal',
-      designation: 'Member',
-      domain: 'Core Team',
-      image: '/Paramita.JPG',
       featured: false,
     },
     {
@@ -273,22 +265,6 @@ function Team() {
       designation: 'Member',
       domain: 'Core Team',
       image: '/Joydwipta.jpg',
-      featured: false,
-    },
-    {
-      _id: '31',
-      name: 'Anishka Bharti',
-      designation: 'Member',
-      domain: 'Core Team',
-      image: '/Anishka.jpg',
-      featured: false,
-    },
-    {
-      _id: '32',
-      name: 'Lopamudra Dey',
-      designation: 'Member',
-      domain: 'Core Team',
-      image: '/Lopa.jpg',
       featured: false,
     },
     {
@@ -353,6 +329,14 @@ function Team() {
       designation: 'Member',
       domain: 'Core Team',
       image: '/Soumyadeep.jpg',
+      featured: false,
+    },
+    {
+      _id: '41',
+      name: 'Istuti Sharma',
+      designation: 'Member',
+      domain: 'Core Team',
+      image: '/Istuti.jpeg',
       featured: false,
     },
 ];

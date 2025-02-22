@@ -66,26 +66,52 @@ export default function Home() {
     const events: Event[] = [
         
         {
-            _id: "5",
+            _id: "9",
+            title: "Scavenger Hunt: A Fun-Filled Adventure!",
+            date: "2025-03-08",
+            shortDescription: `Join us for an exciting scavenger hunt on MARCH 8th! Put your problem-solving skills to the test as you race  against the clock to find hidden clues and complete challenges. Gather your team, wear your competitive shoes, and be prepared for a day of adventure and fun.
+            `,
+            venue: "TECHNO INDIA UNIVERSITY",
+            time: "11 AM  onwards",
+            image: "/temp/20.jpeg",
+            rsvplink: "https://docs.google.com/forms/d/e/1FAIpQLSdkRFR-T8sV58Zyu3kcD_XDctb1WA09AbLQ2-5Yn-adO7BqWQ/viewform"
+          },
+          {
+            _id: "10",
+            title: "Ultimate Food Eating Challenge!",
+            date: "2025-03-10",
+            shortDescription: `Are You Hungry Enough to Be the Champion?
+          Think you can devour more than the competition? Prove it! Welcome to the Ultimate Food Eating Challenge, where only the biggest appetites and the fastest eaters survive. This is not for the weak—this is a battle of speed, stamina, and pure hunger.
+          The Rules Are Simple, But the Challenge Is Brutal:
+          🔥 Eat as much as you can within the time limit.
+          🔥 No leftovers, no mercy! Every bite counts.
+          🔥 Tap out, and you're out! There's no shame in losing, but there’s no glory either.
+          
+            `,
+            venue: "TECHNO INDIA UNIVERSITY",
+            time: "12 PM  onwards",
+            image: "/temp/21.jpeg",
+            rsvplink: "https://docs.google.com/forms/d/e/1FAIpQLScSR5lCKDNxqafEa5zxRNkiFGRLkPuvZflL5m9n9-IyDFUELw/viewform"
+          },
+          {
+            _id: "22",
             title: "Hacktopia",
-            date: "2024-11-30",
-            shortDescription: "Solve real-world problems in Healthcare, AI, Cybersecurity, Blockchain, and more! 🌟 👥 Team Size: 1-4 🏆 Prizes: Exciting rewards! 🗓 Register by: Nov 30th 🕒 Platform: Online📍 Finale: In-person",
-            venue: "TIU",
-            time: "Online",
-            image: "/comingEvent5.jpeg",
-            rsvplink: "https://forms.gle/pDqEhzerQcr68vX98"
-        },
-    
-        {
-            _id: "6",
-            title: " Rover 4.0",
-            date: "2024-12-07",
-            shortDescription: "Join Takshila`s Intense One day Gaming Blitz at Techno India University.Conquer challenges , emerge victorious against esteemed rivals and secure your gaming legacy at Rover 4.0",
-            venue: "TIU",
-            time: "",
-            image: "/Rover.jpg",
-            rsvplink: "https://linktr.ee/vivartatechno?utm_source=linktree_profile_share&ltsid=4a15a29d-1d1f-4171-b52b-4613a6089903"
-        },
+            date: "2025-03-08 to 2025-03-09",
+            shortDescription: `🛠 Key Details:
+          Solve real-world problems in Healthcare, AI, Cybersecurity, Education, Blockchain, and more!
+          Team Size: 1-4 members
+          Select 1 Problem Statement and compete for exciting prizes 🏆
+          Tackle impactful challenges 🌍
+          Network with industry experts 🤝
+          Showcase your skills and win big! 💵
+          💻 Open to all students, professionals, and innovators
+          ⏳ Limited spots – don’t miss out! Let’s innovate together
+            `,
+            venue: "TECHNO INDIA UNIVERSITY",
+            time: "12 PM  onwards",
+            image: "/code.avif",
+            rsvplink: "https://lemonade.social/e/AigjXHfi"
+          },
     
 
     ]

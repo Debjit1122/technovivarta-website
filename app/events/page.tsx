@@ -159,7 +159,7 @@ AND WIN EXCITING CASH PRIZES
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "1 PM  onwards",
-  image: "/liveludo.jpeg",
+  image: "/temp/23.jpg",
   rsvplink: "https://docs.google.com/forms/d/e/1FAIpQLScZNiDp5xat-GKZSwtjRhuMN9ZSB_155rPv8Sa2RwT3I_maPg/viewform?usp=header"
 },
 {
@@ -170,7 +170,7 @@ AND WIN EXCITING CASH PRIZES
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "1 PM  onwards",
-  image: "/temp/none.jpeg",
+  image: "/temp/22.jpg",
   rsvplink: ""
 },
 {
@@ -306,11 +306,11 @@ Think you have what it takes to be the fastest Cookie? The race is on!
   venue: "TECHNO INDIA UNIVERSITY",
   time: "11 AM  onwards",
   image: "/temp/7.jpg",
-  rsvplink: "https://docs.google.com/forms/d/e/1FAIpQLSfQYoSlVcGUPBco9bJIj6BfkPYgKzdt9fiHTf_KlLj3DiCx5Q/viewform?usp=header"
+  rsvplink: "https://forms.gle/igFAmSveq9RVHJnW6"
 },
 {
   _id: "22",
-  title: "Hacktopia",
+  title: "Hackquest",
   date: "2025-03-08 to 2025-03-09",
   shortDescription: `🛠 Key Details:
 Solve real-world problems in Healthcare, AI, Cybersecurity, Education, Blockchain, and more!
@@ -324,7 +324,7 @@ Showcase your skills and win big! 💵
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "12 PM  onwards",
-  image: "/code.avif",
+  image: "/temp/24.png",
   rsvplink: "https://lemonade.social/e/AigjXHfi"
 },
 {

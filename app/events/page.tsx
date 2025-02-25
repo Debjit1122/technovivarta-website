@@ -211,7 +211,7 @@ Step into the arena of intellect and strategy—where every move counts and only
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "11 AM  onwards",
-  image: "/temp/5.jpg",
+  image: "/temp/28.jpeg",
   rsvplink: "https://docs.google.com/forms/d/e/1FAIpQLSedjOYpg5ebu4PVxmPe15FITzX0FdpC9rTvFJnliFlGW5pl3Q/viewform?usp=sharing"
 },
 {
@@ -242,7 +242,7 @@ Think you have the skills to clutch the win? Lock and load—it’s game time!
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "11 AM  onwards",
-  image: "/temp/2.jpg",
+  image: "/temp/27.jpeg",
   rsvplink: "https://docs.google.com/forms/d/e/1FAIpQLSc0VDnlZwGQ0jEh2DZUVAy_2UZ6YxTrE3ry1ExXyH_Wz7gxug/viewform?usp=sharing"
 },
 

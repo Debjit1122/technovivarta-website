@@ -48,6 +48,8 @@ function Team() {
       designation: 'Management Lead',
       domain: 'Management',
       image: '/Rio 1.jpg',
+      linkedin: 'https://www.linkedin.com/in/tannishto-dasgupta-950965217/',
+      instagram: 'https://www.instagram.com/dasguptario/',
       featured: true,
     },
     // {
@@ -102,6 +104,8 @@ function Team() {
       designation: 'Domain Lead',
       domain: 'Computing',
       image: '/Saikat.jpeg',
+      instagram: 'https://www.instagram.com/saikatbhattacharya2?igsh=NTVsZ3hlc2NlYmJh',
+      linkedin: 'https://www.linkedin.com/in/saikat-bhattacharya-a52434263',
       featured: false,
     },
     {
@@ -225,6 +229,8 @@ function Team() {
       designation: 'Member',
       domain: 'Core Team',
       image: '/Ankit.jpg',
+      instagram: " https://www.instagram.com/wwhodisdude/",
+      linkedin: 'https://www.linkedin.com/in/ankit-agarwal-52552b237',
       featured: false,
     },
     {
@@ -289,6 +295,8 @@ function Team() {
       designation: 'Member',
       domain: 'Core Team',
       image: '/Sandipto.jpg',
+      linkedin: 'https://www.linkedin.com/in/sandipto-das-1bbb191b8',
+      instagram: 'https://www.instagram.com/the_menacing_mind?igsh=MWIzd3hzdHBtYmlrNg==',
       featured: false,
     },
     {

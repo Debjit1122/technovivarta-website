@@ -95,7 +95,7 @@ export default function Home() {
           },
           {
             _id: "22",
-            title: "Hacktopia",
+            title: "Hackquest",
             date: "2025-03-08 to 2025-03-09",
             shortDescription: `🛠 Key Details:
           Solve real-world problems in Healthcare, AI, Cybersecurity, Education, Blockchain, and more!
@@ -109,7 +109,7 @@ export default function Home() {
             `,
             venue: "TECHNO INDIA UNIVERSITY",
             time: "12 PM  onwards",
-            image: "/code.avif",
+            image: "/temp/24.png",
             rsvplink: "https://lemonade.social/e/AigjXHfi"
           },
     

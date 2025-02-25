@@ -29,7 +29,7 @@ function Events() {
         venue: "TECHNO INDIA UNIVERSITY",
         time: "9 AM  onwards",
         image: "/temp/9.jpg",
-        rsvplink: ""
+        rsvplink: "https://forms.gle/K6qyX4hRTD7qMwww9"
     },
     {
       _id: "2",
@@ -41,7 +41,7 @@ function Events() {
       venue: "TECHNO INDIA UNIVERSITY",
       time: "12 PM  onwards",
       image: "/temp/11.jpg",
-      rsvplink: ""
+      rsvplink: "https://forms.gle/PuKjbGWrf7QHehPQ7"
   },
   {
     _id: "3",
@@ -52,7 +52,7 @@ function Events() {
     venue: "TECHNO INDIA UNIVERSITY",
     time: "12 PM  onwards",
     image: "/temp/10.jpg",
-    rsvplink: ""
+    rsvplink: "https://forms.gle/McxZmZ1dfDfdrdfx8"
 },
 {
   _id: "4",
@@ -183,7 +183,7 @@ Seize this opportunity to bring your vision to life!
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "11 AM  onwards",
-  image: "/temp/14.jpg",
+  image: "/temp/26.jpeg",
   rsvplink: ""
 },
 {
@@ -197,7 +197,7 @@ Step into the arena of intellect and strategy—where every move counts and only
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "11 AM  onwards",
-  image: "/temp/6.jpg",
+  image: "/temp/25.jpeg",
   rsvplink: "https://forms.gle/6sb7NFdvrEzjj1eB9"
 },
 {

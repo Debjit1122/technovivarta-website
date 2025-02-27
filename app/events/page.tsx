@@ -184,7 +184,7 @@ Seize this opportunity to bring your vision to life!
   venue: "TECHNO INDIA UNIVERSITY",
   time: "11 AM  onwards",
   image: "/temp/26.jpeg",
-  rsvplink: ""
+  rsvplink: "https://forms.gle/EFs9WxEwBmwit5X69"
 },
 {
   _id: "14",
@@ -343,7 +343,7 @@ This is your chance to prove your coding prowess and turn pixels into perfection
   venue: "TECHNO INDIA UNIVERSITY",
   time: "11 AM  onwards",
   image: "/temp/13.jpg",
-  rsvplink: ""
+  rsvplink: "https://forms.gle/qgfGRCpK8rv9tsaa8"
 },
 {
   _id: "24",
@@ -361,7 +361,7 @@ This is your chance to shine and prove you’ve got the brains to beat the tough
   venue: "TECHNO INDIA UNIVERSITY",
   time: "11 AM  onwards",
   image: "/temp/12.jpg",
-  rsvplink: ""
+  rsvplink: "https://forms.gle/qgfGRCpK8rv9tsaa8"
 },
 
 {

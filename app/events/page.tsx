@@ -28,7 +28,7 @@ function Events() {
         `,
         venue: "TECHNO INDIA UNIVERSITY",
         time: "9 AM  onwards",
-        image: "/temp/9.jpg",
+        image: "/temp/29.jpeg",
         rsvplink: "https://forms.gle/K6qyX4hRTD7qMwww9"
     },
     {
@@ -40,7 +40,7 @@ function Events() {
       `,
       venue: "TECHNO INDIA UNIVERSITY",
       time: "12 PM  onwards",
-      image: "/temp/11.jpg",
+      image: "/temp/30.jpeg",
       rsvplink: "https://forms.gle/PuKjbGWrf7QHehPQ7"
   },
   {
@@ -51,7 +51,7 @@ function Events() {
     `,
     venue: "TECHNO INDIA UNIVERSITY",
     time: "12 PM  onwards",
-    image: "/temp/10.jpg",
+    image: "/temp/31.jpeg",
     rsvplink: "https://forms.gle/McxZmZ1dfDfdrdfx8"
 },
 {
@@ -62,7 +62,7 @@ function Events() {
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "12 PM  onwards",
-  image: "/temp/15.jpg",
+  image: "/temp/36.png",
   rsvplink: "https://forms.gle/jiYCQT8eHngnQhKm8"
 },
 
@@ -88,7 +88,7 @@ Step into the ultimate battleground, where engineering meets adrenaline and robo
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "12 PM  onwards",
-  image: "/temp/17.jpg",
+  image: "/temp/35.png",
   rsvplink: "https://forms.gle/jiYCQT8eHngnQhKm8"
 },
 {
@@ -114,7 +114,7 @@ Brace yourself for an electrifying showdown as autonomous bots race through a re
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "12 PM  onwards",
-  image: "/temp/19.jpg",
+  image: "/temp/34.png",
   rsvplink: "https://forms.gle/jiYCQT8eHngnQhKm8"
 },
 {
@@ -227,7 +227,7 @@ Think you have what it takes to be the last one standing? Squad up and take your
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "11 AM  onwards",
-  image: "/temp/1.jpg",
+  image: "/temp/37.jpeg",
   rsvplink: "https://docs.google.com/forms/d/1Redi0zt980RhLk8Teh5IcxnT_HoLg_T79ZpoZMgf1cg/edit?usp=drivesdk"
 },
 {
@@ -342,7 +342,7 @@ This is your chance to prove your coding prowess and turn pixels into perfection
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "11 AM  onwards",
-  image: "/temp/13.jpg",
+  image: "/temp/32.jpeg",
   rsvplink: "https://forms.gle/qgfGRCpK8rv9tsaa8"
 },
 {
@@ -360,7 +360,7 @@ This is your chance to shine and prove you’ve got the brains to beat the tough
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "11 AM  onwards",
-  image: "/temp/12.jpg",
+  image: "/temp/33.jpeg",
   rsvplink: "https://forms.gle/qgfGRCpK8rv9tsaa8"
 },
 

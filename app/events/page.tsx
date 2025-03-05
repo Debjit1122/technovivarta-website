@@ -75,7 +75,7 @@ Step into the ultimate battleground, where engineering meets adrenaline and robo
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "12 PM  onwards",
-  image: "temp/42.jpeg",
+  image: "/temp/42.jpeg",
   rsvplink: "https://forms.gle/jiYCQT8eHngnQhKm8"
 },
 {

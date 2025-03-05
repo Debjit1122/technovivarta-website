@@ -69,7 +69,7 @@ function Events() {
 {
   _id: "5",
   title: "DOGE WAR: Forged in Steel, Tested in Battle! ⚔🔥(8 kg)",
-  date: "2025-03-09",
+  date: "2025-03-08 to 2025-03-09",
   shortDescription: `Where Metal Clashes, Sparks Fly, and Champions Rise!
 Step into the ultimate battleground, where engineering meets adrenaline and robots engage in a high-octane spectacle of destruction. Feel the thunderous roar of motors, witness the precision of strategic combat, and experience the relentless pursuit of victory.
   `,

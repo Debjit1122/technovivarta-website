@@ -21,7 +21,7 @@ function Events() {
     {
         _id: "1",
         title: "POSEIDON: The Ultimate Battle Beneath the Waves",
-        date: "2025-03-9",
+        date: "2025-03-8 to 2025-03-9",
         shortDescription: `Get ready for the most innovative and thrilling competition of the year : POSEIDON- the Aqua Robot Soccer War.
         Register with your Team. Each Team should consist of two members.
         * Bots for the event will be provided to each team.
@@ -57,7 +57,7 @@ function Events() {
 {
   _id: "4",
   title: "RoboWar 15kg: The Ultimate Battle of Steel and Strategy",
-  date: "2025-03-09",
+  date: "2025-03-08 to 2025-03-09",
   shortDescription: `Prepare for RoboWar 2025 , where engineering meets destruction in the most intense robotic showdown! Watch as custom-built combat bots clash in a high-stakes battle of power, precision, and strategy. Only the toughest will withstand the chaos—will your bot reign supreme?
   `,
   venue: "TECHNO INDIA UNIVERSITY",
@@ -75,13 +75,13 @@ Step into the ultimate battleground, where engineering meets adrenaline and robo
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "12 PM  onwards",
-  image: "/dogewar.jpeg",
+  image: "temp/42.jpeg",
   rsvplink: "https://forms.gle/jiYCQT8eHngnQhKm8"
 },
 {
   _id: "6",
   title: "RoboSoccer: Where Innovation Meets the Game",
-  date: "2025-03-09",
+  date: "2025-03-08 to 2025-03-09",
   shortDescription: `Step onto the future of sports, where cutting-edge robotics and high-energy competition collide!
 ⚽ Watch autonomous robots dribble, pass, and score with unmatched precision and lightning speed.
 ⚡ Experience the thrill of a game where technology and athleticism redefine the playing field.
@@ -101,7 +101,7 @@ Step into the ultimate battleground, where engineering meets adrenaline and robo
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "12 PM  onwards",
-  image: "/temp/18.jpg",
+  image: "/temp/43.jpeg",
   rsvplink: "https://forms.gle/jiYCQT8eHngnQhKm8"
 },
 {
@@ -259,7 +259,7 @@ Command. Conquer. Dominate. Are you ready to seize victory?
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "11 AM  onwards",
-  image: "/temp/8.jpg",
+  image: "/temp/41.jpeg",
   rsvplink: "https://forms.gle/Ps5MxEfma7Y11ZCx7"
 },
 {
@@ -274,7 +274,7 @@ The stakes are high—will you rise to the challenge?
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "11 AM  onwards",
-  image: "/temp/4.jpg",
+  image: "/temp/40.jpeg",
   rsvplink: "https://forms.gle/rKSxkXFBquE49MFv8"
 },
 {
@@ -289,7 +289,7 @@ Gear up, stay sharp, and own the battlefield! Are you ready?
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "11 AM  onwards",
-  image: "/temp/3.jpg",
+  image: "/temp/39.jpeg",
   rsvplink: "https://forms.gle/WHXcZWd5WBivesrdA"
 },
 
@@ -305,7 +305,7 @@ Think you have what it takes to be the fastest Cookie? The race is on!
   `,
   venue: "TECHNO INDIA UNIVERSITY",
   time: "11 AM  onwards",
-  image: "/temp/7.jpg",
+  image: "/temp/38.jpeg",
   rsvplink: "https://forms.gle/igFAmSveq9RVHJnW6"
 },
 {

@@ -78,6 +78,8 @@ function Team() {
       designation: 'Executive Lead',
       domain: 'Executive',
       image: '/Deep 3.jpg',
+      linkedin: 'https://www.linkedin.com/in/djdeep/',
+      instagram: 'https://www.instagram.com/dj_deep_gamer/',
       featured: false,
     },
     {
@@ -146,6 +148,8 @@ function Team() {
       designation: 'Domain Lead',
       domain: 'Innovation and Management',
       image: '/Aprajita.jpg',
+      linkedin: 'https://www.linkedin.com/in/aprajita-kumari05/',
+      instagram: 'https://www.instagram.com/k_a__i_z_e_n?igsh=bXFhNjVwODE0dDZy',
       featured: false,
     },
     {

@@ -707,7 +707,7 @@ export default function Home() {
             <section className="bg-background py-8 md:py-12">
                 <div className="container mx-auto">
                     <h2 className="text-center text-2xl font-extrabold leading-tight tracking-tighter md:text-3xl lg:text-4xl">
-                        Marchendice
+                        MERCHANDISE
                     </h2>
                     <p className="mb-9 mt-3 text-center text-lg md:text-xl lg:text-2xl">
                         Buy Techno Vivarta T-Shirt

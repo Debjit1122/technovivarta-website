@@ -449,7 +449,7 @@ export default function Home() {
                         data-aos-delay="300">
                         <CardHeader>
                             <Image
-                                src="/ishan.jpeg"
+                                src="/ishan.jpg"
                                 alt="Dr. Ishan Ghosh"
                                 className="h-[200px] w-[200px] overflow-hidden rounded-full bg-white"
                                 style={{ objectFit: "contain", objectPosition: "center" }}
@@ -460,7 +460,7 @@ export default function Home() {
                         <CardContent className="flex flex-col items-center justify-center text-center">
                             <div>
                                 <h4 className="text-lg font-semibold">Dr. Ishan Ghosh</h4>
-                                <p className="text-sm text-gray-600">Administration Head, Techno India University</p>
+                                <p className="text-sm text-gray-600">ASSOCIATE DEAN OF STUDENT AFFAIRS, TECHNO INDIA UNIVERSITY</p>
                             </div>
                         </CardContent>
                     </Card>
